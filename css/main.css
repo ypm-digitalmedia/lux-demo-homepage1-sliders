@@ -1,0 +1,212 @@
+body{
+    font-family: "Mallory MP Light";
+    overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Mallory Medium";
+    /* text-transform: uppercase; */
+}
+
+.navbar-brand {
+    font-family: "YaleNew";
+    font-size: 2rem;
+    color: white;
+}
+
+button, strong {
+    font-family: "Mallory Bold";
+    text-transform: uppercase;
+}
+
+a.advanced-search,
+.search-options {
+    color: white;
+}
+
+.hidden {
+    display: none;
+    visibility: hidden;
+    height: 0px;
+}
+
+header {
+    background: rgb(0, 53, 107);
+    box-shadow: rgba(0,0,0,0.4) 0px 2px 10px;
+    position: absolute;
+    width: 100%;
+    z-index: 4;
+    height: 75px;
+}
+
+.btn-primary {
+    background: rgb(0,53,107);
+    border-color: rgb(0,53,107);
+}
+
+.main-heading-container,
+.main-subheading-container {
+    padding: 2em 0;
+    /* text-align: center; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-heading {
+    color: white;
+    /* margin: 1em 0 0.5em; */
+    text-shadow: rgba(0,0,0,0.8) 2px 2px 2px;
+}
+
+.main-subheading {
+    color: white;
+    text-shadow: rgba(0,0,0,0.8) 2px 2px 2px;
+}
+
+#top {
+    height: 500px;
+    width: 100%;
+}
+
+#top_bg, 
+#top_content {
+    position: absolute;
+    height: 500px;
+    width: 100%;
+    top: 75px;
+}
+
+.bg-slider-item {
+    height: 500px;
+    background-position: center center;
+    background-size: cover;
+    /* opacity: 0.2; */
+}
+
+.bg-screen {
+    z-index: 2;
+    background: rgba(0,0,0,0.7);
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    top: 75px;
+}
+
+#top_bg {
+    z-index: 1;
+    background: black;
+}
+
+#top_content {
+    /* box-shadow: rgb(0, 53, 107) 0px 100px 60px -30px inset; */
+}
+
+#top_content {
+    z-index: 3;
+}
+
+.slider-container,
+.bg-slider {
+    opacity: 0;
+}
+
+.slider-item {
+    height: 100px;
+    background-size: cover;
+    background-position: center center;
+    /* width: 30vw; */
+    width: 400px;
+    margin: 1em;
+    outline: 10px rgba(255,255,255,0.95) solid;
+    cursor: pointer;
+}
+
+
+.slider-item img {
+    height: 100px;
+    width: auto;
+}
+
+.slider-item strong {
+    font-family: "Mallory Medium";
+    text-transform: none;
+}
+
+.slider-item-text {
+    /* transform: translateY(-250%); */
+}
+
+.slider-item p {
+    font-family: "Mallory Light";
+    text-align: center;
+    font-size: 0.9rem;
+    background: rgba(255,255,255,0.9);
+    text-shadow: rgba(0,0,0,0.2) 1px 1px 1px;
+    margin: 0;
+    padding: 0.2em;
+    display: inline-block;
+    opacity: 0;
+    transition: 0.5s all ease-in-out;
+}
+
+.slider-caption-text {
+    color: white;
+    text-align: right;
+    padding: 0.5em 1em;
+    opacity: 0.9;
+    font-size: 0.9em;
+    font-style: italic;
+    text-shadow: rgba(0,0,0,0.58) 1px 1px 1px;  
+}
+
+.bootstrap-switch-label,
+.bootstrap-switch-handle, 
+.bootstrap-switch-handle-off, 
+.bootstrap-switch-handle-on {
+    padding: 3px 6px!important;
+    font-size: 0.8rem!important;
+}
+
+#bottom {
+    margin-top: 75px;
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+
+    .main-heading {
+        font-size: 2rem;
+        padding: 0 0.3em;
+    }
+
+    .main-subheading {
+        font-size: 1.3rem;
+        padding: 0 0.3em;
+    }
+
+    .search-options {
+        display: none;
+    }
+
+    .main-subheading-container {
+        padding: 0.5em 0 1em;
+    }
+
+    .main-heading-container {
+        padding-bottom: 0.25em;
+    }
+
+}

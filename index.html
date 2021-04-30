@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>LUX prototype</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous" />
+    <link rel="stylesheet" href="bootstrap-switch/css/bootstrap4/bootstrap-switch.css" />
+    <link rel="stylesheet" type="text/css" href="css/fonts.css" />
+    <link rel="stylesheet" type="text/css" href="css/yalenew.css" />
+
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-md navbar-dark">
+            <a class="navbar-brand" href="#">Yale</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarCollapse">
+                <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="fa fa-question-circle" aria-hidden="true"></i> Help</a>
+                </li>
+                </ul>
+            </div>
+        </nav>
+    </header>    
+
+    <main>
+        <section id="top">
+
+            <div id="top_bg" class="bg-slider">
+                <div class="bg-slider-item" style="background-image: url('img/full/eastrock_georgewarren_full.jpg');" /></div>
+                <div class="bg-slider-item" style="background-image: url('img/full/birds_audubon_full.jpg');" /></div>
+                <div class="bg-slider-item" style="background-image: url('img/full/hands-horse-skull_okeeffe_full.jpg');" /></div>
+                <div class="bg-slider-item" style="background-image: url('img/full/ba_alchemy_full.jpg');" /></div>
+                <div class="bg-slider-item" style="background-image: url('img/full/samuel-prout_full.jpg');" /></div>
+            </div>
+
+            <div class="bg-screen"></div>
+            
+            <div id="top_content">
+                <div class="container">
+                    <div class="row">
+                        <div class="col main-heading-container">
+                            <h1 class="main-heading"><strong>LUX:</strong> Search Yale's Digital Collections</h1>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container">
+
+                    <div class="row">
+                        <div class="col">
+                            <div class="input-group mb-3">
+                                <input id="search_term" type="text" class="form-control" placeholder="" aria-label="" aria-describedby="">
+                                <div class="input-group-append">
+                                <button id="search_button" class="btn btn-primary" type="button">SEARCH</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col col-xs-6"><span class="search-options">Show </span><input name="has-images" type="checkbox" id="cb_hasImages" checked /></div>
+                        <div class="col col-xs-6"><p style="text-align: right"><a href="#" class="advanced-search"><i class="fa fa-filter" aria-hidden="true"></i> Advanced Search</a></p></div>
+                    </div>
+                
+                </div>
+
+
+
+                <div class="container">
+                    <div class="row">
+                        <div class="col main-subheading-container">
+                            <h4 class="main-subheading">Browse all of Yale's museum and library catalogs in one place.</h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="slider-container">
+
+                    <div class="slider-item" style="background-image:url('img/thumb/eastrock_georgewarren_thumb.jpg')" />
+                        <p rel="0" class="slider-item-text">Explore <strong>New Haven CT</strong></p>
+                    </div>
+                    
+                    <div class="slider-item" style="background-image:url('img/thumb/birds_audubon_thumb.jpg')" />
+                        <p rel="1" class="slider-item-text">Explore <strong>John James Audubon Birds</strong></p>
+                    </div>
+                
+                    <div class="slider-item" style="background-image:url('img/thumb/hands-horse-skull_okeeffe_thumb.jpg')" />
+                        <p rel="2" class="slider-item-text">Explore <strong>Georgia O'Keeffe</strong></p>
+                    </div>
+            
+                    <div class="slider-item" style="background-image:url('img/thumb/ba_alchemy_thumb.jpg')" />
+                        <p rel="3" class="slider-item-text">Explore <strong>Alchemy</strong></p>
+                    </div>
+        
+                    <div class="slider-item" style="background-image:url('img/thumb/samuel-prout_thumb.jpg')" />
+                        <p rel="4" class="slider-item-text">Explore <strong>Samuel Prout</strong></p>
+                    </div>
+                
+            </div>
+
+
+
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col slider-caption">
+                            <p class="slider-caption-text">caption</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        
+        <section id="bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <hr />
+                        <p>bottom of page</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+
+
+
+
+
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.4/lodash.min.js"></script>
+    
+
+    <!-- <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script> -->
+    <!-- <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script> -->
+    <script type="text/javascript" src="bootstrap-switch/js/bootstrap-switch.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+
+    <script type="text/javascript" src="js/main.js"></script>
+
+</body>
+
+</html>
